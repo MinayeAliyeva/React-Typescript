@@ -1,11 +1,13 @@
 
 import "./App.css";
+import ContextExample from "./components/ContextExample";
 import EventActions from "./components/EventActions";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
 import LoginCheck from "./components/LoginCheck";
 import Request from "./components/Request";
+import { ThemeContextProvider } from "./components/ThemeContext";
 import UseReducer from "./components/UseReducer";
 
 function App() {
@@ -38,7 +40,12 @@ function App() {
       <hr />
       <EventActions/> */}
       {/* <LoginCheck/> */}
-      <UseReducer/>
+      {/* <UseReducer/>
+       */}
+       <ThemeContextProvider>
+       <ContextExample/>
+       </ThemeContextProvider>
+      
     </div>
   );
 }
