@@ -6,6 +6,7 @@ import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
 import LoginCheck from "./components/LoginCheck";
 import Request from "./components/Request";
+import UseReducer from "./components/UseReducer";
 
 function App() {
   let user = "Minaya";
@@ -36,7 +37,8 @@ function App() {
       <Request status='error'/>
       <hr />
       <EventActions/> */}
-      <LoginCheck/>
+      {/* <LoginCheck/> */}
+      <UseReducer/>
     </div>
   );
 }

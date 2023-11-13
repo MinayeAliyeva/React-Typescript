@@ -5,6 +5,10 @@ const LoginCheck = () => {
     name: string;
     email: string;
   };
+
+
+  
+  
   const [user, setUser] = useState<userType | null>({} as userType);
   const handleLogin = () => {
     setUser({
