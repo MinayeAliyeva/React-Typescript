@@ -1,12 +1,7 @@
 import React from "react";
 
 //objectlerde props type
-type instructortype = {
-  obj: {
-    firsName: string;
-    lastName: string;
-  };
-};
+import { instructortype } from "./propstypes";
 const Instructor = ({obj}:instructortype) => {
     console.log(obj);
     

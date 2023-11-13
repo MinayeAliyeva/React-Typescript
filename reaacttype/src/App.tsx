@@ -1,5 +1,6 @@
 
 import "./App.css";
+import EventActions from "./components/EventActions";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
@@ -32,6 +33,8 @@ function App() {
       <Instructor obj={instructor}/>
       <InstructorList array={instructorList}/>
       <Request status='error'/>
+      <hr />
+      <EventActions/>
     </div>
   );
 }
