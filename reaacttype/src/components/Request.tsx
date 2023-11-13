@@ -1,6 +1,4 @@
-type RequestProp = {
-  status: 'loading'|'success'|'error';
-};
+import { RequestProp } from "./propstypes";
 const Request = ({ status }: RequestProp) => {
   let message = "";
   if (status === "loading") {

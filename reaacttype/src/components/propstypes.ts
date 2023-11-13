@@ -4,3 +4,7 @@ export type instructortype = {
       lastName: string;
     };
   };
+
+ export  type RequestProp = {
+    status: 'loading'|'success'|'error';
+  };
