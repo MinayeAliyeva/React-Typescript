@@ -4,6 +4,7 @@ import EventActions from "./components/EventActions";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
+import LoginCheck from "./components/LoginCheck";
 import Request from "./components/Request";
 
 function App() {
@@ -29,12 +30,13 @@ function App() {
   ]
   return (
     <div className="App">
-      <Home isBest={true} name={user} number={courseNumber} />
+      {/* <Home isBest={true} name={user} number={courseNumber} />
       <Instructor obj={instructor}/>
       <InstructorList array={instructorList}/>
       <Request status='error'/>
       <hr />
-      <EventActions/>
+      <EventActions/> */}
+      <LoginCheck/>
     </div>
   );
 }
