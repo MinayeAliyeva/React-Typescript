@@ -1,9 +1,9 @@
-import React from "react";
-import logo from "./logo.svg";
+
 import "./App.css";
 import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
+import Request from "./components/Request";
 
 function App() {
   let user = "Minaya";
@@ -31,6 +31,7 @@ function App() {
       <Home isBest={true} name={user} number={courseNumber} />
       <Instructor obj={instructor}/>
       <InstructorList array={instructorList}/>
+      <Request status='error'/>
     </div>
   );
 }
