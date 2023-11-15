@@ -1,6 +1,7 @@
 import { createContext } from "react";
 import React from "react";
 import { theme } from "./theme";
+//childrenin type
 type ThemeContextProviderProps = {
   children: React.ReactNode;
 };

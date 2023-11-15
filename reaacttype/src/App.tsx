@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import Instructor from "./components/Instructor";
 import InstructorList from "./components/InstructorList";
 import LoginCheck from "./components/LoginCheck";
+import RefExample from "./components/RefExample";
 import Request from "./components/Request";
 import { ThemeContextProvider } from "./components/ThemeContext";
 import UseReducer from "./components/UseReducer";
@@ -42,9 +43,10 @@ function App() {
       {/* <LoginCheck/> */}
       {/* <UseReducer/>
        */}
-       <ThemeContextProvider>
+       {/* <ThemeContextProvider>
        <ContextExample/>
-       </ThemeContextProvider>
+       </ThemeContextProvider> */}
+       <RefExample/>
       
     </div>
   );
